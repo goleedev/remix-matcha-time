@@ -19,6 +19,7 @@ export default function App() {
         <meta charSet="utf-8" />
         <title>What Time Now</title>
         <meta name="viewport" content="width=device-width,initial-scale=1" />
+
         <Meta />
         <Links />
       </head>
