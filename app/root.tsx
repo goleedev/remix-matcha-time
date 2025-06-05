@@ -6,7 +6,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from '@remix-run/react';
-import stylesheet from '~/tailwind.css';
+import stylesheet from '~/tailwind.css?inline';
 
 export const links: LinksFunction = () => [
   { rel: 'stylesheet', href: stylesheet },
