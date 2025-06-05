@@ -1,40 +1,20 @@
-# Welcome to Remix!
+# Matcha Time 🍵
 
-- 📖 [Remix docs](https://remix.run/docs)
+A playful little Remix app to invite your office buddies to Matcha Time.
 
-## Development
+![Matcha Screenshot](./public/matcha.webp)
 
-Run the dev server:
+## What it does
 
-```sh
-npm run dev
-```
+- Asks: "What time is it?"
+- If you're wrong (and you are), it reminds you: it's always matcha time.
+- Includes a link to add the next matcha session to your Google Calendar (Thursdays @ 12:30pm London time).
 
-## Deployment
+## Tech
 
-First, build your app for production:
+- [Remix](https://remix.run/)
+- Tailwind CSS
 
-```sh
-npm run build
-```
+## Why?
 
-Then run the app in production mode:
-
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+Because you deserve a matcha break — and so do your office buddies. ☕
