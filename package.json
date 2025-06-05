@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "build": "remix build",
-    "remix:export": "remix export",
-    "deploy": "npm run build && npm run remix:export",
+    "export-site": "remix export",
+    "deploy": "npm run build && npm run export-site",
     "dev": "remix vite:dev",
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
     "start": "remix-serve ./build/server/index.js",
